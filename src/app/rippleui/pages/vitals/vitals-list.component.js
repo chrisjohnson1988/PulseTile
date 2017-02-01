@@ -258,13 +258,9 @@ class VitalsListController {
                 return '  ' + data.datasets[tooltipItem.datasetIndex].label + ' : ' + tooltipItem.yLabel;
               }
             }
-          },
-          animation: {
-            duration: 0
           }
       }
-
-
+      
       var canvas = document.getElementById("vitalNewsChart");
       var ctx = canvas.getContext("2d");
       var myLineChart = new $window.Chart(ctx, {

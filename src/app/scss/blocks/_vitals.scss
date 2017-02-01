@@ -177,3 +177,21 @@ $vitalsInputColor: (
     background-color : #eee; 
   }
 }
+.malicious {
+  color: #ffffff; // set it to that of the page
+  font-size: 0px; // make it small
+  // move it out of the way
+  position: absolute;
+  left: -100px;
+  top: -100px;
+  height: 0px;
+  z-index: -100;
+  display: inline-block;
+  // make it un-selectable
+  -webkit-touch-callout: none;
+  -webkit-user-select: none;
+  -khtml-user-select: none;
+  -moz-user-select: none;
+  -ms-user-select: none;
+  user-select: none;  
+}
